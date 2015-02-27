@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>jGrader - Sign In</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Bootstrap -->
+        <script src="/libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="/libs/bootstrap/css/theme.min.css" rel="stylesheet" ></script>
+
+        <!-- jQuery -->
+        <script src="/libs/jquery/jquery.min.js" type="text/javascript"></script>
+
+
+        <!-- Own Resources -->
+        <link href="/res/css/style.css" rel="stylesheet" ></script>
+        <script src="/res/js/login.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <form class="form-signin" name="input" action="/404.html" method="post">
+                <h2 class="form-signin-heading">Sign into jGrader</h2>
+                <div class="alert alert-success" role="alert">
+                  <span class="sr-only">Success:</span>
+                  You have been logged out.
+                </div>
+                <input id="username" type="text" name="username" class="form-control" placeholder="CampusNet Username">
+                <input id="password" type="password" name="password" class="form-control" placeholder="Password">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </form>
+        </div>
+    </body>
+
+</html>
