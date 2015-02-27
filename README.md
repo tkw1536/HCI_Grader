@@ -2,7 +2,7 @@
 
 This is a design demo for the course Human Computer Interaction. It does not have any real functionality.
 
-You can start by going to the [Sign In Page](/pages/login).
+You can start by going to the [Sign In Page](pages/login/start).
 
 ## Passwords
 

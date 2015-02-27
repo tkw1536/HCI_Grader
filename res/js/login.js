@@ -15,13 +15,13 @@ $(function(){
     //this is totally unsecure, as we are checking stuff on the client side.
     //eventually we should just usbmit the form.
     if(username == "student" && password == "student"){
-      location.href = "/pages/landing";
+      location.href = "../../../pages/landing";
     } else if(username == "ta" && password == "ta"){
-      location.href = "/pages//landing/ta";
+      location.href = "../../../pages//landing/ta";
     } else if(username == "admin" && password == "admin"){
-      location.href = "/pages/landing/admin";
+      location.href = "../../../pages/landing/admin";
     } else {
-      location.href = "/pages/login/wrong";
+      location.href = "../../../pages/login/wrong";
     }
   });
 })
