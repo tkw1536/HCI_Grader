@@ -17,7 +17,7 @@ $(function(){
     if(username == "student" && password == "student"){
       location.href = "../../../pages/landing/student";
     } else if(username == "ta" && password == "ta"){
-      location.href = "../../../pages//landing/ta";
+      location.href = "../../../pages/landing/ta";
     } else if(username == "admin" && password == "admin"){
       location.href = "../../../pages/landing/admin";
     } else {

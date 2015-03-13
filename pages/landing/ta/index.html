@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <title>jGrader - Home</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- jQuery -->
+  <script src="../../../libs/jquery/jquery.min.js" type="text/javascript"></script>
+
+  <!-- Bootstrap -->
+  <script src="../../../libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <link href="../../../libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" ></script>
+
+  <!-- Own Resources -->
+  <link href="../../../res/css/triangles.css" rel="stylesheet" ></script>
+  <script src="../../../res/js/landing.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- TODO: Stuff -->
+  <div class="container">
+    <div class="masthead">
+      <!-- Upper nav bar -->
+      <div class="alert alert-gray" style="width: 100%; text-align: right; ">
+        <a href="../../../404.html">Help</a> -
+        <a href="../../../pages/login/logout">Sign out</a>
+      </div>
+
+      <!-- Lower nav bar -->
+      <ul class="nav nav-justified">
+        <li class="active">
+          <a href="../../../pages/landing/ta/">Home</a>
+        </li>
+        <li>
+          <a href="../../../pages/grading/ta/">Grade courses</a>
+        </li>
+      </ul>
+      <h3 class="text-muted">TA Name here</h3>
+      <div class="jumbotron">
+        <h1>Upcoming Assignments</h1>
+        <div class="row"></div>
+        <div class="row">
+          <!-- Assignment 1 -->
+          <div class="col-md-4">
+            <h1>Sep.1</h1>
+            <div class="progress text-center progress-info progress-striped">
+              <div class="progress-bar" style="width: 90%">Python Lab Homework 1</div>
+            </div>
+          </div>
+
+          <!-- Assignment 2 -->
+          <div class="col-md-4">
+            <h1>Sep.2</h1>
+            <div class="progress text-center progress-info progress-striped">
+              <div class="progress-bar" style="width: 75%">C Lab Homework 1</div>
+            </div>
+          </div>
+
+          <!-- Assignment 3 -->
+          <div class="col-md-4">
+            <h1>Sep.3</h1>
+            <div class="progress text-center progress-info progress-striped">
+              <div class="progress-bar" style="width: 90%">Python Lab Homework 2</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <p></p>
+    </div>
+    <div class="row marketing">
+      <div class="col-lg-6">
+        <h4>Enrolled Courses</h4>
+        <hr>
+
+        <a href="../../../404.html">
+          <img src="../../../res/images/pythonlab.png" width="75" alt="   PythonLab">
+        </a>   Python Lab<hr>
+
+        <a href="../../../404.html">
+          <img src="../../../res/images/clab.png" width="75" alt="   PythonLab">
+        </a>   C Lab<hr>
+
+      </div>
+      <div class="col-lg-6">
+        <div class="alert alert-info">
+          Welcome to jGrader! <br/>
+          On this page you can get an overview of current assignments and their completion. <br />
+          For a full list, please select a course from the course list here or the complete course list on the "course" tab. <br />
+          <a href="../../../404.html">Learn more</a>
+        </div>
+        <div class="alert alert-info">
+          Usually there would also be a course tab above (for the courses the TA is taking as a student). <br/>
+          However this is only a prototype so we omitted it. <br />
+          Furthermore the course links on this page do not work. 
+        </div>
+      </div>
+    </div>
+  <!-- /container -->
+</body>
+
+</html>
