@@ -18,8 +18,6 @@ $(function(){
       location.href = "../../../pages/landing/student";
     } else if(username == "ta" && password == "ta"){
       location.href = "../../../pages/landing/ta";
-    } else if(username == "admin" && password == "admin"){
-      location.href = "../../../pages/landing/admin";
     } else {
       location.href = "../../../pages/login/wrong#"+username;
     }
