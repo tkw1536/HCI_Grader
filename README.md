@@ -6,7 +6,7 @@ You can start by going to the [Sign In Page](pages/login/start).
 
 ## Passwords
 
-In this demo, we have 3 accounts "student", "ta" and "admin". For all of them, the password is the same as the username.
+In this demo, we have 2 accounts "student", "ta". For both of them, the password is the same as the username.
 
 ## Used Libraries
 
