@@ -3,3 +3,9 @@
     //margin-bottom: 1px;
     border-bottom: 0.5px ;
 }
+.glyphicon-ok {
+    color: #41be47;
+}
+.glyphicon-remove {
+    color:  #FF0000;
+}
