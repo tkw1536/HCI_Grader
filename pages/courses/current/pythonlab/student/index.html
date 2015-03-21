@@ -13,7 +13,9 @@
 
   <!-- Own Resources -->
   <link href="../../../../../res/css/triangles.css" rel="stylesheet" type="text/css">
-  <script src="../../../../../res/js/landing.js" type="text/javascript"></script>
+    <link href="../../../../../res/css/custom.css" rel="stylesheet" type="text/css">
+
+    <script src="../../../../../res/js/landing.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -37,7 +39,7 @@
   <div class="container" style="margin-top: 5%">
     <div class="masthead">
       <ul class="nav nav-justified">
-          <li class="active">
+          <li>
               <a href="../../../current/student/">Current courses</a>
           </li>
           <li>
@@ -59,78 +61,101 @@
           <br>          <br>          <br>
         <div>
             <hr>
-            <div class="row">
+            <ul class="nav nav-tabs">
+                <li class="active"><a aria-expanded="true" href="#now-hw" data-toggle="tab"><p>Current Homework</p>
+                </a></li>
+                <li><a aria-expanded="false" href="#past-hw" data-toggle="tab"><p>Previous Homework</p></a>
+                </li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div id="now-hw" class="row tab-pane fade active in">
+                    <div class="col-md-12">
+                        <br><br>
+                        <div>
+                            <i>Deadline for this assignment is : <b style="color: red">20 April</b></i>
+                        </div>
+                        <a href="#" class="btn btn-info btn-lg btn-block">Submit</a>
+                        <br><br><br><br><br>
 
-                <div class="col-md-9">
-                    <a href="#" class="btn btn-lg btn-primary">Submit</a>
-                    <div class="btn-group pull-right">
-                        <a href="#" class="btn btn-info">Request</a>
-                        <a href="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Extension</a></li>
-                            <li><a href="#">Excuse</a></li>
-                        </ul>
+                        <div class="btn-group btn-group-justified">
+                            <a href="#" class="btn btn-lg btn-success">View assignment</a>
+                            <a href="#" class="btn btn-lg btn-warning">Request Extension</a>
+                            <a href="#" class="btn btn-lg btn-danger">Request Excuse</a>
+
+
+                        </div>
+
+
+
+
                     </div>
-                    <br><br>
-                    <table class="table table-bordered">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Due</th>
-                            <th>HW Name</th>
-                            <th>Feedback</th>
-                            <th>Grade</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>22 - Mar</td>
-                            <td><a href="#">Classes and templates</a></td>
-                            <td>Very well designed</td>
-                            <td>95%</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>1 - Apr</td>
-                            <td><a href="#">Try Catch and Exceptions</a></td>
-                            <td>Please review thread exceptions</td>
-                            <td>73%</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>8 - Apr</td>
-                            <td><a href="#">GUI</a></td>
-                            <td>Crashes on loading</td>
-                            <td>50%</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>15 - Apr</td>
-                            <td><a href="#">Network communication</a></td>
-                            <td>Please review how sockets work</td>
-                            <td>81%</td>
-                        </tr>
-                        <tr class="active">
-                            <td>5</td>
-                            <td>22 - Apr</td>
-                            <td>File I/O</td>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                        </tr>
-                        <tr class="active">
-                            <td>6</td>
-                            <td>29 - Apr</td>
-                            <td>Hardware I/O</td>
-                            <td>N/A</td>
-                            <td>N/A</td>
-                        </tr>
-                        </thead>
-                    </table>
-                    <h4>Description:</h4>
-                    This lab unit is a continuation of the first semester lab Programming in Python I. It covers advanced topics of Python programming such as object oriented programming, advanced data structures, file handling, debugging techniques and problem solving using frameworks.
-                    This lab is a service lab aimed at students who do not need to learn how to program in C in a mandatory lab. Students studying ECE, EECS, CS and ACM need to take NatSciLab CS II instead.
-
                 </div>
-                <div class="col-md-3">
+
+                <div id="past-hw" class="row tab-pane fade">
+
+                    <div class="col-md-12">
+                        <br><br>
+                        <table class="table table-bordered" style="width: 100%">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Deadline was</th>
+                                <th>HW Name</th>
+                                <th>Submission</th>
+                                <th>Feedback</th>
+                                <th>Grade</th>
+
+
+                            </tr>
+                            <tr class="success">
+                                <td>1</td>
+                                <td>22 February</td>
+                                <td><a href="#">Classes and templates</a></td>
+                                <td><span class="glyphicon glyphicon-ok" style="margin-left: 5px"></span></td>
+                                <td>Very well designed</td>
+                                <td>95%</td>
+
+
+                            </tr>
+                            <tr class="success">
+                                <td>2</td>
+                                <td>1 March</td>
+                                <td><a href="#">Try Catch and Exceptions</a></td>
+                                <td><span class="glyphicon glyphicon-ok" style="margin-left: 5px"></span></td>
+                                <td>Please review thread exceptions</td>
+                                <td>73%</td>
+
+                            </tr>
+                            <tr class="success">
+                                <td>3</td>
+                                <td>8 March</td>
+                                <td><a href="#">GUI</a></td>
+                                <td><span class="glyphicon glyphicon-ok" style="margin-left: 5px"></span></td>
+                                <td>Crashes on loading</td>
+                                <td>50%</td>
+
+                            </tr>
+                            <tr class="success">
+                                <td>4</td>
+                                <td>12 March</td>
+                                <td><a href="#">System design</a></td>
+                                <td><span class="glyphicon glyphicon-remove" style="margin-left: 5px"></span></td>
+                                <td>No upload found</td>
+                                <td>0%</td>
+
+
+                            </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <br><br><br>
+                <div class="row">
+                    <div class="col-md-12">
+
+
                     <h4>Instructors:</h4> <h5>Dr. Kinga Lipskoch</h5><br>
                     <h4>Credits:</h4> <h5>2.50 ECTS</h5><br>
                     <h4>Partial Grades:</h4><br>
@@ -138,7 +163,12 @@
                         <li class="list-group-item">Final Exam (65%, Mandatory)</li>
                         <li class="list-group-item">Course Assignment (35%)</li>
                     </ul><br>
+                        <h4>Description:</h4>
 
+                        This lab unit is a continuation of the first semester lab Programming in Python I. It covers advanced topics of Python programming such as object oriented programming, advanced data structures, file handling, debugging techniques and problem solving using frameworks.
+                        This lab is a service lab aimed at students who do not need to learn how to program in C in a mandatory lab. Students studying ECE, EECS, CS and ACM need to take NatSciLab CS II instead.
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -146,8 +176,7 @@
       </div>
     </div>
   <!-- /container -->
-    </div>
-  </div>
+ </div>
 </body>
 
 </html>
