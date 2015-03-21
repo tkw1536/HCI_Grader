@@ -1,5 +1,7 @@
 \section{Tom}
 
+\subsection{Authentication Page}
+
 The authentication page is the entry point to the system and as such we designed it very carefully. It exists in 3 versions:
 
 \begin{enumerate}
@@ -14,4 +16,8 @@ When the user accesses the sign in page for the first time, the keyboard automat
 
 During (paper) prototype testing a tester mentioned that it would be convenient to have reset password functionality, so we added a link for it.  On the linked page the user can enter their username and then gets an email with a link to reset the password\footnote{Because this is simply a prototype only the form is implemented, not the actual mail being sent. We also do not have a layout for the reset password page. If this system were to be used at Jacobs, the reset link might be removed because CampusNet accounts are used and we can not reset the password externally. }. This page does not have the username pre-entered or an auto-focus functionality because we want to prevent abuse of the system.
 
-The third version of the authentication is shown after the user signs out of the system. It contains a small message to ensure that the user knows they have been signed out. Furthermore if auto-focuses the username field to enable the user to quickly sign in again. An earlier version did not contain a sign in form but only a message that the user had been logged out, however this was criticized during paper prototype testing. 
+The third version of the authentication is shown after the user signs out of the system. It contains a small message to ensure that the user knows they have been signed out. Furthermore if auto-focuses the username field to enable the user to quickly sign in again. An earlier version did not contain a sign in form but only a message that the user had been logged out, however this was criticized during paper prototype testing.
+
+\subsection{TA Landing Page}
+
+The TA landing page is the same as the stuent one. In this demo we did not want to duplicate all the menu items for the TA, we have not added any content. In an actual implementation of the system, the menu entry of the TA landing page would include the TAs courses under "Current courses" and "Previous courses" respectively. 
