@@ -7,10 +7,10 @@
 * TA profile:
 
   <li><a href="../../../pages/profile/ta/"><img src="../../../res/images/profile_pic.jpg" width="20" style="margin-right: 5px">TA Name</a></li>
-  <li class="active"><a href="../../../pages/profile/ta/"><img src="../../../res/images/profile_pic2.jpg" width="20" style="margin-right: 5px">Filip Nikolche</a></li>
+  <li class="active"><a href="../../../pages/profile/ta/"><img src="../../../res/images/profile_pic2.png" width="20" style="margin-right: 5px">Filip Nikolche</a></li>
 
 
-<li><a href="../../../pages/profile/ta/"><img src="../../../res/images/profile_pic2.jpg" width="20" style="margin-right: 5px">Filip Nikolche</a></li>
+<li><a href="../../../pages/profile/ta/"><img src="../../../res/images/profile_pic2.png" width="20" style="margin-right: 5px">Filip Nikolche</a></li>
 
 
-<li class="active"><a href="../../../pages/profile/ta/"><img src="../../../res/images/profile_pic2.jpg" width="20" style="margin-right: 5px">Filip Nikolche</a></li>
+<li class="active"><a href="../../../pages/profile/ta/"><img src="../../../res/images/profile_pic2.png" width="20" style="margin-right: 5px">Filip Nikolche</a></li>
