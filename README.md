@@ -8,6 +8,10 @@ You can start by going to the [Sign In Page](pages/login/start).
 
 In this demo, we have 2 accounts "student", "ta". For both of them, the password is the same as the username.
 
+## Documentation
+
+Can be found [here](docs/main.pdf).
+
 ## Used Libraries
 
 * [jQuery](http://jquery.com/) 2.0.3, licensed under [MIT](https://jquery.org/license/)
