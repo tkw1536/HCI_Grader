@@ -5,13 +5,17 @@
   \begin{enumerate}
     \item Student
   \end{enumerate}
-  \item \textbf{Purpose:} Grading platforms should be capable of collecting assignment submissions, timestamped and stored in a central location
+  \item \textbf{Purpose:} Students should be able to submit files.
   \item \textbf{Procedure:}
   \begin{enumerate}
-    \item Student visits authenticated landing page, which shows outstanding assignments for courses
-    \item Clicking on the assignment goes to the assignment page, containing the project spec, an accessor for the most recent previously submitted file (if applicable), and a submission interface
-    \item If a small number of files is to be submitted, simply dragging and dropping/upload dialog for each slot will work
-    \item If a larger/unknown number of files is to be submitted, uploading a zip file will happen instead. If enabled, jGrader will unzip it and attempt to match the contents to any file-specific slots that may exist.
-    \item After uploading, the file submission slot will turn grey and show a confirmation message until the page is refreshed. (After refreshing, the previously submitted accessor will be shown)
+    \item Student visits authenticated landing page.
+    \item This page shows the next upcoming assignments. Clicking on one of them leads to the submission pages.
+    \item Alternatively, the student can click a ``Current courses'' pages which lists all courses.
+    \item The student can then click on an individual course which lists all current assignments for that course.
+    \item Here the student can click on the submit button of any assignment and also land on the submission page.
+    \item On the submission page slots for all files to be submitted are listed.
+    \item The student can either click on a file or drrag nd drop a file in the slot to upload it.
+    \item During uploading, a progress bar appears which shows the current progress.
+    \item Once the progress bar reaches 100\%, the slot turns green which confirms that the file is uploaded. 
   \end{enumerate}
 \end{itemize}
