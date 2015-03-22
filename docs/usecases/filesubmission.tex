@@ -1,0 +1,17 @@
+\subsection{File Submission}
+
+\begin{itemize}
+  \item \textbf{Agents:}
+  \begin{enumerate}
+    \item Student
+  \end{enumerate}
+  \item \textbf{Purpose:} Grading platforms should be capable of collecting assignment submissions, timestamped and stored in a central location
+  \item \textbf{Procedure:}
+  \begin{enumerate}
+    \item Student visits authenticated landing page, which shows outstanding assignments for courses
+    \item Clicking on the assignment goes to the assignment page, containing the project spec, an accessor for the most recent previously submitted file (if applicable), and a submission interface
+    \item If a small number of files is to be submitted, simply dragging and dropping/upload dialog for each slot will work
+    \item If a larger/unknown number of files is to be submitted, uploading a zip file will happen instead. If enabled, jGrader will unzip it and attempt to match the contents to any file-specific slots that may exist.
+    \item After uploading, the file submission slot will turn grey and show a confirmation message until the page is refreshed. (After refreshing, the previously submitted accessor will be shown)
+  \end{enumerate}
+\end{itemize}

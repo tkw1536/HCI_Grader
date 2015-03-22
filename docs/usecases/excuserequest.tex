@@ -1,0 +1,27 @@
+\subsection{Excuse Request\footnote{This use case is only partially implemented in the prototype. }}
+
+\begin{itemize}
+  \item \textbf{Agents:} \begin{enumerate}
+    \item Students
+    \item Professor
+    \item Registrar (not directly)
+  \end{enumerate}
+  \item \textbf{Purpose:} Request being officially excused for a task
+  \item \textbf{Procedure:}
+  \begin{enumerate}
+    \item Student visits authenticated landing page, which shows outstanding assignments for courses.
+    \item Clicking on an assignment navigates the student to the assignment page which (among other things) has a button to request an excuse for the specific assignment.
+    \item The student clicks a button to request an excuse for this task from the professor.
+    \item The task is marked as “EXCUSE PENDING” on the course page. \footnote{This and the following steps are not available in the prototype. }
+    \item The professor is notified of the request via an email that is sent to them. This email includes a link to a page on Grader where he/she can confirm the extension request.
+    \item (not directly in the system) the student sends a medical excuse to the registrar and waits for them to confirm it (to the professor).
+    \item The professor clicks on the link in the mail that was sent to him/her earlier
+    \item The professor lands on an (authenticated) page on jGrader where he/she can either confirm or deny the requests.
+    \begin{itemize}
+      \item If the excuse was accepted by the registrar, the professor clicks the “Grant Excuse” button
+      \item If not, he/she clicks the “Deny Excuse” button
+    \end{itemize}
+    \item The student is notified via email if the excuse has been granted or denied.
+    \item At the same time the excuse is marked appropriately on the landing page.
+  \end{enumerate}
+\end{itemize}
