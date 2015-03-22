@@ -71,15 +71,65 @@
               Upon submission, you will see a progress bar. Once a file is submitted, the slot will turn green.
             </div>
           </div>
-          <div class="col-lg-6">
-          </div>
-          <div>
-            Submission stuff here.
-          </div>
         </div>
         <!-- /container -->
       </div>
+
+      <div class="row">
+        <div class='col-lg-3 text-right'>
+          <b>File #1: </b>
+          <code>IO_Input.py</code>
+        </div>
+        <div class='col-lg-4 text-center' id="vupload">
+          <div class='alert alert-gray' id="droparea">
+            Drop file here or click to select file
+            <br /><br />
+          </div>
+          <input type='file' style='opacity:0;display:none; '>
+
+        </div>
+        <div class='col-lg-4 text-center hidden' id="vprogress">
+          <div class='alert alert-info'>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" id="thebar"
+              aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-lg-5' id="vnone">
+          (no file submitted yet)
+        </div>
+        <div class='col-lg-5 hidden' id="vuploadmsg">
+          (submission uploading)
+        </div>
+        <div class='col-lg-5 hidden' id="vdownloadmsg">
+          <a href="../../../../../404.html" class="btn btn-default">
+            Download submission
+          </a>
+        </div>
+      </div>
     </div>
+
+    <div class="row">
+      <div class='col-lg-3 text-right'>
+        <b>File #2: </b>
+        <code>IO_Output.py</code>
+      </div>
+      <div class='col-lg-4 text-center'>
+        <div class='alert alert-success'>
+          Drop file here or click to select file
+          <br /><br />
+        </div>
+      </div>
+      <div class='col-lg-5'>
+        <a href="../../../../../404.html" class="btn btn-default">
+          Download submission
+        </a>
+      </div>
+    </div>
+  </div>
   </div>
 </body>
 
